@@ -22,6 +22,16 @@ http://localhost:8080/greeting
 
 http://localhost:8080/greeting?name=foo
 
+```sh
+curl http://localhost:8080/greeting
+```
+
+It will respond with a JSON representation of a greeting, as the following listing shows:
+
+```json5
+{"id":1,"content":"Hello, World!"}
+```
+
 ---
 
 based on:
